@@ -6,6 +6,11 @@
 - Define behaviour component of the design.
 - Gives a ***High level Overview***.
 
+## Uses:
+Represents:
+- Scenarios in which the application interacts with external systems.
+- The scope of your system.
+
 ### ***Stake holders*** : 
 1) **Actors**: 
     - users, organizations.
@@ -24,14 +29,14 @@
     - Indicate scope of the system.
 
 4) **Relationships**: 
-    > ***links*** between actors and use cases.  
+    > ***links*** between actors and use cases. 
     1) ***Extends***:  between two use cases.
         - child use case is ***dependent*** on base case.
-        - Drawn as an ***arrow*** from child use case to the base use case. (child --> base).
-        - Example : bonus --> salary.
+        - Drawn as an ***arrow*** from child use case to the base use case. (child &rarr; base).
+        - Example : bonus &rarr; salary.
     2) ***Include***: between use cases
         - ***Mandatory***.
-        - Example: withdraw --> update balance.
+        - Example: withdraw &rarr; update balance.
         - ***Dashed*** Arrow points to the child.
         - Can be ***reused***.
     3) ***Association***: between actors and use cases.  
